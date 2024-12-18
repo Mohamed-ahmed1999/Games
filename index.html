@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Games</title>
+
+   <link rel="stylesheet" href="./css/bootstrap.min.css" />
+   <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+   <section class="linkgames">
+      <img src="./img/wraper.png" class="w-100 photo1" alt="game photo" />
+
+
+      <nav class="navbar navbar-expand-lg  position-sticky top-0 z-2 col-lg-9 ">
+         <div class="container">
+            <h1 class="navbar-brand mb-0  text-uppercase">
+               <img src="./img/logo-sm.png " alt="" style="max-width: 40px" /> Game Reviews
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <div class="navbar-toggler-icon"></div>
+            </button>
+            <div class="collapse small navbar-collapse " id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto  text-nav ">
+                  <li class="nav-item">
+                     <a type="button " class="text-white nav-link active text-uppercase" aria-current="page"
+                        data-category="mmorpg">mmorpg</a>
+                  </li>
+                  <li class="nav-item ">
+                     <a type="button" class="text-white nav-link text-uppercase" data-category="shooter">shooter</a>
+                  </li>
+                  <li class="nav-item">
+                     <a type="button" class="text-white nav-link text-uppercase" data-category="sailing">sailing</a>
+                  </li>
+                  <li class="nav-item">
+                     <a type="button" class=" text-white nav-link text-uppercase"
+                        data-category="permadeath">permadeath</a>
+                  </li>
+                  <li class="nav-item">
+                     <a type="button" class="text-white nav-link text-uppercase" data-category="superhero">superhero</a>
+                  </li>
+                  <li class="nav-item">
+                     <a type="button" class=" text-white nav-link text-uppercase" data-category="pixel">pixel</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <div class="container my-5 photogames">
+         <div class="position-relative">
+            <div class="row  row-cols-xl-4 " id="datagames"></div>
+         </div>
+      </div>
+   </section>
+
+   <section class="data1 d-none">
+      <div class="container">
+         <header class="hstack justify-content-between">
+            <h1 class="text-center h3 py-4">Details Game</h1>
+            <button class="btn-close btn-close-white" id="closefile"></button>
+         </header>
+         <div class="row " id="searchGames"></div>
+      </div>
+   </section>
+
+   <div class="download d-none">
+      <div class="cricle"></div>
+   </div>
+   <script src="./js/index.js" type="module"></script>
+   <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
